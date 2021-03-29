@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- name of our website  -->
+    <title>Ash's Food Service</title>
+    <!-- linking the css file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1095px)" href="phone.css">
+    <!-- External fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- this will be the navigation bar -->
+    <nav id="navBar">
+        <div id="logo">
+            <!-- this will be the logo of the website of size 40*40 -->
+            <img src="https://source.unsplash.com/user/erondu/40x40" alt="Ash's Food Service">
+        </div>
+        <ul>
+            <!-- these are the navigation options shown in the navbar  -->
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to my online meal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo aliquam eaque repellat minus officiis expedita, doloremque id veritatis alias.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center">
+            Our Services
+        </h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://source.unsplash.com/user/erondu/150x150">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eveniet tenetur, cupiditate ducimus omnis saepe accusamus impedit recusandae ipsa unde, cum voluptatum vero? Necessitatibus quas voluptas vel molestiae quis! Laborum debitis
+                    iure eaque voluptatem!</p>
+            </div>
+            <div class="box">
+                <img src="https://source.unsplash.com/user/erondu/150x150">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eveniet tenetur, cupiditate ducimus omnis saepe accusamus impedit recusandae ipsa unde, cum voluptatum vero? Necessitatibus quas voluptas vel molestiae quis! Laborum debitis
+                    iure eaque voluptatem!</p>
+            </div>
+            <div class="box">
+                <img src="https://source.unsplash.com/user/erondu/150x150">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eveniet tenetur, cupiditate ducimus omnis saepe accusamus impedit recusandae ipsa unde, cum voluptatum vero? Necessitatibus quas voluptas vel molestiae quis! Laborum debitis
+                    iure eaque voluptatem!</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="https://source.unsplash.com/user/erondu/120x120" alt="Our Clients">
+            </div>
+            <div class="client-item">
+                <img src="https://source.unsplash.com/user/erondu/120x120" alt="Our Clients">
+            </div>
+            <div class="client-item">
+                <img src="https://source.unsplash.com/user/erondu/120x120" alt="Our Clients">
+            </div>
+            <div class="client-item">
+                <img src="https://source.unsplash.com/user/erondu/120x120" alt="Our Clients">
+            </div>
+            <div class="client-item">
+                <img src="https://source.unsplash.com/user/erondu/120x120" alt="Our Clients">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name...">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone: </label><br>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter your phone number...">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email...">
+                </div>
+                <div class="form-group">
+                    <label for="location">Address: </label><br>
+                    <textarea name="location" id="location" cols="30" rows="10" placeholder="Address..."></textarea>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; Ash's Food Service all rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
